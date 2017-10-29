@@ -1,0 +1,92 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body{
+    background: black;
+    background: url('http://x.annihil.us/u/prod/marvel/i/mg/8/b0/537ba702ad5b3.gif');
+    background-size: cover;
+}
+
+*{
+    font-family: Roboto;
+    box-sizing: border-box;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+*:focus{
+    outline: none;
+}
+
+.logo{
+    background: #ed1d24;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logoimg{
+    height: 75px;
+}
+
+.busqueda{
+    text-align: center;
+    padding: 15px;
+    border-bottom: 2px solid black;
+}
+
+.busqueda input{
+    border: 2px solid black;
+    padding: 2px;
+    text-align: center;
+    box-shadow: inset 0 2px 2px black;
+}
+
+.container{
+    margin-top: 200px;
+}
+
+.hero{
+    background: white;
+    margin: 25px;
+    overflow: auto;
+    border: 2px solid black;
+}
+
+.hero h3{
+    background: #ed1d24;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border-bottom: 2px solid black;
+}
+
+.hero img{
+    float: left;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 25px;
+    border: 2px solid black;
+    background: #ed1d24;
+}
+
+.hero p {
+    margin: 25px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    padding: 25px;
+    background: #ed1d24;
+    color: white;
+    border-top: 2px solid black;
+}
