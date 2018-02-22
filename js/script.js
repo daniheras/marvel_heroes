@@ -1,5 +1,5 @@
-const privateKey = "d90c2d811bf0d8b8f154cfcd07211135af7d6f26";
-const publicKey = "9a844fd43161723b50cc96991073d6e6";
+const privateKey = "";
+const publicKey = "";
 const content = document.getElementById('content');
 
 const getConnection = (search) => {
